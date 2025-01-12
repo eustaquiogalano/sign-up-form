@@ -83,7 +83,18 @@ main {
 
         .less-visible {
             height: 30%;
-            background-color: rgba(0, 0, 0, .5);
+            background-color: rgba(0, 0, 0, .7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            #short-message {
+                color: white;
+                padding: .5rem;
+                width: 66ch;
+                font-size: 1.5rem;
+            }
         }
     } 
 }
