@@ -16,7 +16,7 @@
             <p id="credit">Photo by Andrew Coelho on Unsplash</p>
         </section>
         <section id="form-container">
-            <div class="less-visible">
+            <div class="less-visible top">
                 <p id="short-message">
                     This is not real online service! You know you need something
                     like this in your real life to help you realize your deepest dreams.
@@ -28,7 +28,7 @@
             </div>
             <div id="form">
                 <p>Let's do this!</p>
-                <form>
+                <form id="sign-up-form">
                     <div class="left">
                         <div>
                             <label for="first-name">First Name:</label>
@@ -59,7 +59,10 @@
                     </div>
                 </form>
             </div>
-            <div class="less-visible"></div>
+            <div class="less-visible bottom">
+                <button type="submit" form="sign-up-form">Create Account</button>
+                <p>Already have an account? Log in</p>
+            </div>
         </section>
     </main>
     <script src="./script.js"></script>
