@@ -147,7 +147,11 @@ main {
                             padding: .2rem .4rem;
 
                             &:hover {
-                                border: 2px solid black;
+                                border: 1px solid black;
+                            }
+
+                            &:invalid {
+                                border: 2px solid red;
                             }
                         }
 
