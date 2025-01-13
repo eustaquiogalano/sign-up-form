@@ -147,7 +147,7 @@ main {
                             padding: .2rem .4rem;
 
                             &:invalid {
-                                border: 2px solid red;
+                                border: 2px solid rgb(255, 124, 124);
                             }
                             
                             &:valid {

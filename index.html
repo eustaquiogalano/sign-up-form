@@ -32,11 +32,23 @@
                     <div class="left">
                         <div>
                             <label for="first-name">First Name:</label>
-                            <input type="text" name="first-name" id="first-name" placeholder="John">
+                            <input 
+                                type="text" 
+                                name="first-name" 
+                                id="first-name" 
+                                placeholder="John"
+                                required
+                            >
                         </div>
                         <div>
                             <label for="email">Email:</label>
-                            <input type="email" name="email" id="email" placeholder="John@email.com">
+                            <input 
+                                type="email" 
+                                name="email" 
+                                id="email" 
+                                placeholder="John@email.com"
+                                required    
+                            >
                         </div>
                         <div>
                             <label for="password">Password:</label>
@@ -45,17 +57,30 @@
                                 name="password" 
                                 id="password"
                                 minlength="5"
+                                required
                             >
                         </div>
                     </div>
                     <div class="right">
                         <div>
                             <label for="last-name">last Name:</label>
-                            <input type="text" name="last-name" id="last-name" placeholder="Smith">
+                            <input 
+                                type="text" 
+                                name="last-name" 
+                                id="last-name" 
+                                placeholder="Smith"
+                                required
+                            >
                         </div>
                         <div>
                             <label for="contact-number">Contact Number:</label>
-                            <input type="number" name="contact-number" id="contact-number"placeholder="+639XXXXXXXXX">
+                            <input 
+                                type="number" 
+                                name="contact-number" 
+                                id="contact-number"
+                                placeholder="+639XXXXXXXXX"
+                                required
+                            >
                         </div>
                         <div>
                             <label for="confirmation">Confirm Password:</label>
@@ -64,6 +89,7 @@
                                 name="confirmation" 
                                 id="confirmation" 
                                 minlength="5"
+                                required
                             >
                             <p id="matching-message"></p>
                         </div>
