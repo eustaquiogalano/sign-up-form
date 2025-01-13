@@ -146,16 +146,16 @@ main {
                             border: 1px solid gray;
                             padding: .2rem .4rem;
 
-                            /* &:hover {
-                                border: 1px solid black;
-                            } */
-
                             &:invalid {
                                 border: 2px solid red;
                             }
-
+                            
                             &:valid {
                                 border: 2px solid green;
+                            }
+
+                            &:hover {
+                                border: 1px solid black;
                             }
 
                             &:focus,
@@ -165,7 +165,6 @@ main {
                                 box-shadow: 2px 2px 4px 2px gray;
                             }
                         }
-
                     }
                 }
             }
