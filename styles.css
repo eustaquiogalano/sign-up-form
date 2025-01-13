@@ -140,10 +140,17 @@ main {
 
                         input {
                             width:60%;
-                            font-size: 1.5rem;
+                            height: 40%;
+                            font-size: 1rem;
                             border-radius: 3px;
                             border: 1px solid gray;
+                            padding: .2rem .4rem;
+
+                            &:hover {
+                                border: 2px solid black;
+                            }
                         }
+
                     }
                 }
             }
